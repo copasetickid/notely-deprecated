@@ -11,7 +11,24 @@ gem 'spring', :group => :development
 #Database
 gem 'pg'
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.1'
+  gem 'pry'
+  gem 'dotenv-rails'
+  gem 'factory_girl_rails', '~> 4.5.0'
+end
 
+group :development do
+  gem 'annotate', github: 'ctran/annotate_models'
+  gem 'railroady'
+  gem 'terminal-notifier-guard'
+  gem 'guard-rspec', require: false
+  gem 'fuubar'
+end
+
+group :test do
+  gem 'webmock'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

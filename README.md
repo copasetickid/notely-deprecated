@@ -1,28 +1,20 @@
-== README
+# Notely
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
+  An API application to create your own notes(i.e. Evernote)
+## Background
+  Need a domain that provides RESTful resources 
 
-Things you may want to cover:
+## Usage
+  Useful for using when learning a JavaScript framework and you need to hook into real data
 
-* Ruby version
+## Deployment
 
-* System dependencies
+## Development
 
-* Configuration
+## Authors
+@copasetickid
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Copyright
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.

@@ -1,15 +1,17 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1.1'
+ruby '2.2.0'
+gem 'rails', '4.1.9'
 
 gem 'rails-api', git: 'https://github.com/rails-api/rails-api.git', branch: 'master'
+gem "active_model_serializers"
 
 gem 'spring', :group => :development
 
+#Database
 gem 'pg'
 
 
-gem "active_model_serializers"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

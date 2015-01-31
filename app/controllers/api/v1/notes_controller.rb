@@ -44,7 +44,7 @@ module Api
       end
 
       def note_params
-        params.requrie(:note).permit(:title, :body, :category_id) if params[:note]
+        params.require(:note).permit(:title, :body, :notebook_id) 
       end
     end
   end

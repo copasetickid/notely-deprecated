@@ -5,6 +5,7 @@ gem 'rails', '4.1.9'
 
 gem 'rails-api', git: 'https://github.com/rails-api/rails-api.git', branch: 'master'
 gem "active_model_serializers"
+gem "rack-cors", require: "rack/cors"
 
 gem 'spring', :group => :development
 

@@ -5,7 +5,7 @@ module Api
 
       def index
         @notes = Note.all
-        render json: @notes
+        render json: { notes: @notes }
       end
 
       def show
